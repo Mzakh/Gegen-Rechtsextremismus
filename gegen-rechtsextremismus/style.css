@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto Serif', sans-serif;
+    background: rgb(110, 110, 110);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.title {
+    color: rgb(200, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+h2 {
+    color: rgb(161, 0, 0);
+    font-size: 35px;
+
+}
+
+.antinazi {
+    height: 350px;
+    width: 300px;
+    position: relative; left: 1100px; bottom: 60px  ;
+    border: 6px solid #000000;  
+    padding: 2px; 
+    margin: 4px;
+}
+
+.all {
+   background: rgb(128, 128, 128);
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid rgb(116, 116, 116);
+}
+
+article {
+    text-align: center;
+    position: relative; bottom: 100px;
+}
+
+
+
+
+#toc_container {
+    background: none repeat scroll 0 0;
+    border: 2px solid rgb(0, 0, 0);
+    display: table;
+    font-size: 90%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+    position: relative; left: 20px; bottom: 400px;
+}
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+.Text1 {
+    position: relative; bottom: 30px;
+}
+
+.text2 {
+    position: relative; top: 20px;
+}
+
+hr.new1 {
+    border-top: 1px solid red;
+  }
+
+
+.navbar {
+    background-color: rgb(104, 104, 104);
+    height: 50px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 56px;
+    position: relative; left: 1000px;
+}
+
+.navbar ul li p {
+    text-decoration: none;
+    line-height: 25px;
+}
